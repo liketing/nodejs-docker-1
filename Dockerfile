@@ -1,6 +1,5 @@
 FROM node:8.12.0
 
-COPY ./settings.xml  /usr/share/maven/conf/
 # install docker
 RUN apt-get -y update; \
     apt-get -y install \
